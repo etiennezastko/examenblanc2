@@ -9,11 +9,11 @@
     <title>Document</title>
 </head>
 <body>
-<img src="./assets/images/logo.png" class ="logo"alt="">  
+
 
 
 <div class="topnav" id="myTopnav">
-
+<img src="./assets/images/logo.png" class ="logo"alt="">  
   <a href="#News">Home</a>
   <a href="#contact">Order</a>
   <a href="#about">Company</a>
@@ -30,13 +30,25 @@
 
 <div class="container-title">
             <h1 class="title_1">Beautiful food & takeaway, delivered to your door</h1></div>
-<div class="container-full">
-<img class="image-1 " id="image-i" src="./assets/images/hero_image.png" alt="">
+
+<div class="content">
+<div>
+<img class="image-1 " id="image-i" src="./assets/images/hero_image.png" alt=""></div>
         <div class="container-texte">
             <p class="texte">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500.</p>
+            
+        <button class="button-color">Place an Order</button>
         </div>
 
-        <button class="button-color">Place an Order</button>
+
+
+
+
+
+
+
+
+
         <h1 class="title_1">The home of fresh products</h1>
 
 
@@ -44,8 +56,6 @@
             <p>
             Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500.
             </p>
-
-     
         </div>
 
         <div class="container-texte-2">
@@ -61,7 +71,6 @@
             <p>
              
             </p>
-
             <img class="image-1" src="../assets/images/brainstorming-rafiki.svg" alt="">
         </div>
 
@@ -69,14 +78,6 @@
             <h1 class="title_2">Qui est touché par ce sujet ?</h1>
         </div>
 
-
-
-        
-      
-
-
-
-
-            <script src="main.js"></script>
+<script src="main.js"></script>
 </body>
 </html>

@@ -67,17 +67,24 @@ font-family:"Inter Regular";
 
 
 .container-texte{
-text-align: center;
+
+}
+*{
+
+border: solid 1px red;
 }
 
-.container-full{
-font-family:"Inter Regular" 
-display: grid;
-grid-template-columns: repeat(4, 1fr);
-grid-template-rows: repeat(5, 1fr);
-grid-column-gap: 0px;
-grid-row-gap: 0px;
- 
+
+
+.content{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 1fr;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    margin-left: 10vw;
+    margin-right: 10vw;
+
 }
 
 .title_1{
@@ -87,31 +94,6 @@ font-family: "Inter Bold" ;
 .image-1{
  width: 400px;   
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 @media screen and (max-width: 600px) {
     .topnav a:not(:first-child) {display: none;}
@@ -133,4 +115,9 @@ font-family: "Inter Bold" ;
       display: block;
       text-align: left;
     }
+
+
+.container-full{
+    grid-template-columns: repeat(2, 1fr);
+}
   }
